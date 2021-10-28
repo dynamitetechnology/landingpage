@@ -1,0 +1,190 @@
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .homesection {
+      background: url("https://s18798.pcdn.co/dispatch/wp-content/uploads/sites/8960/2019/12/advocacy7.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      /* height: calc(100vh);*/
+    }
+
+    @media only screen and (max-width: 600px) {
+      .luxuryText {
+        font-size: 3rem;
+      }
+
+      .ListCenter {
+        margin-top: 10px;
+      }
+
+      .subhamediabutton {
+        margin-top: 0px;
+      }
+
+      .calspacing {
+        margin-top: 8px;
+      }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      .subhamediabutton {
+        margin-top: 115px;
+      }
+    }
+
+    .customForm {
+      background: #00000073;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      color: #fff;
+    }
+
+    .luxuryText {
+      /*text-shadow: 2px 2px #0f2f57;*/
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* .serviceSection {
+      background: url("serv2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    } */
+
+    .serviceList {
+      list-style: shape;
+      color: #fff;
+    }
+
+    .serviceList li {
+      padding: 4px;
+      font-size: 1.0rem;
+      font-weight: 700;
+    }
+
+    .subhaList {
+      list-style: none;
+      padding: 0;
+
+    }
+
+    .subhaList li {
+      padding-left: 1.3em;
+      padding-bottom: 10px;
+      font-size: 0.7em;
+    }
+
+    .subhaList li:before {
+      content: "\f00c";
+      /* FontAwesome Unicode */
+      font-family: FontAwesome;
+      display: inline-block;
+      margin-left: -1.3em;
+      /* same as padding-left set on li */
+      width: 1.3em;
+      /* same as padding-left set on li */
+    }
+
+    .navbar .nav-item .nav-link {
+      font-family: 'Unna', serif;
+    }
+
+    .ListingSection {
+      background: #000000;
+    }
+
+    .contactForm{
+      background:url('assets/image/artificial-intelligence-ga5f6e18e6_1920.jpg');
+	  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	
+    }
+	
+	.contactcard{
+		background:#00000075;
+		color:#ffffff;
+		box-shadow: 0 4px 8px 0 rgb(32 255 61 / 25%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	}
+
+    .contactcard_icon i {
+      font-size: 25px;
+      padding: 9px;
+      border-radius: 50%;
+      border: 2px dotted #fbdad2;
+    }
+
+    .socialLinks {
+      list-style: none;
+      padding: 5px;
+      padding-top: 20px;
+    }
+
+    .socialLinks li {
+      padding: 5px;
+    }
+
+    .socialLinks a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .aboutText {
+      margin-top: 35px;
+    }
+
+    .serviceSection .card{
+      height: 100%;
+      border-radius: 0px;
+    
+    }
+    .serviceSection .btn{
+      border-radius: 0px;
+    }
+
+    .serviceSection .col-md-3{
+      margin-bottom: 5px;
+    }
+    .footerbg{
+      background-color: #000000;
+    }
+	.footerlinks{
+		border-bottom:1px solid #ff0000;
+		display:inline;
+	}
+	.navbarbg-dark{
+		background-color: #000000!important;
+	}
+	.border_bottom{
+		border-bottom:1px solid #ff0000;
+		display:inline-block;
+	}
+	.text-red{
+		color:#000;
+	}
+	
+	input[type="text"], textarea {
+	background-color: #d1d1d100!important;
+    color: #ffffff!important;
+}
+
+
+
+	input[type="text"], textarea :focus{
+background-color: #d1d1d100!important;
+    color: #ffffff!important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ color: #ffffff!important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #ffffff!important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ffffff!important;
+}
